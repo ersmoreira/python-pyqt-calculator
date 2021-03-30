@@ -150,7 +150,7 @@ def main():
     # Create an instance of `QApplication`
     pycalc = QApplication(sys.argv)
     # Show the calculator's GUI
-    view = PyCalcUi()
+    view = PyCalcUI()
     view.show()
     # Create instances of the model and the controller
     model = evaluateExpression
